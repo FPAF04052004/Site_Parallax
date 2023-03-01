@@ -60,6 +60,29 @@ section.module.parallax{
     -moz-background-size: cover;
     -moz-background-size: cover;
 }
+section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
+}
 section.module.parallax-1{
     background-image: url("https://i.pinimg.com/originals/69/12/0f/69120f098bbad51079ed14884673b211.jpg");
+}
+section.module.parallax-2{
+    background-image: url("http://1.bp.blogspot.com/-emsoAiIf5Qo/UCySGvMsaQI/AAAAAAAAQCc/HLNslvyiqmo/s1600/Imagem%2Bde%2Bpaisagens.jpg");
+}
+section.module.parallax-3{
+    background-image: url("https://blog.emania.com.br/wp-content/uploads/2015/12/paisagem-tropical-wallpaper-1.jpg");
+}
+section.module.parallax h1{
+    color: white;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
 }
